@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Addproducts">
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:elevation="2in"
+        android:background="@drawable/shaperec1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/add_product" />
+
+        <ImageButton
+            android:id="@+id/backact"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:src="@drawable/back"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:contentDescription="@string/todo" />
+
+
+    </RelativeLayout>
+
+    <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+        android:id="@+id/productimg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/relativelayout"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ic_baseline_shopping_cart_checkout_24"
+        app:c_border="true"
+        app:c_border_color="@color/purple_700"
+        tools:ignore="ImageContrastCheck" />
+       <EditText
+        android:id="@+id/proname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/productimg"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/logininputdesign"
+           android:elevation="2in"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="5dp"
+        android:hint="@string/name"
+        android:minHeight="48dp"
+        android:padding="5dp"
+        android:shadowRadius="23"
+        android:autofillHints=""
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/proprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/proname"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/logininputdesign"
+        android:elevation="2in"
+        android:drawableStart="@drawable/ic_baseline_account_balance_wallet_24"
+        android:drawablePadding="5dp"
+        android:hint="@string/rs_4000"
+        android:minHeight="48dp"
+        android:padding="5dp"
+        android:shadowRadius="23"
+        android:autofillHints=""
+        android:inputType="number" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerctg"
+        android:layout_below="@+id/proprice"
+        android:background="@drawable/logininputdesign"
+        android:elevation="2in"
+        android:drawableStart="@drawable/ic_baseline_category_24"
+        android:drawablePadding="5dp"
+        android:hint="@string/category"
+        android:minHeight="48dp"
+        android:padding="5dp"
+        android:shadowRadius="23"
+        android:autofillHints=""
+        android:inputType="text">
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/prophone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerctg"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:autofillHints=""
+        android:background="@drawable/logininputdesign"
+        android:drawableStart="@drawable/ic_baseline_category_24"
+        android:drawablePadding="5dp"
+        android:elevation="2in"
+        android:hint="@string/category"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="5dp"
+        android:shadowRadius="23" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/savaproduct"
+        android:text="@string/click_to_add_product"
+        android:layout_centerInParent="true"
+        android:drawableStart="@drawable/ic_baseline_data_saver_on_24"
+        android:background="@drawable/buttonbg"
+        android:elevation="2in"
+
+        android:textColor="@color/white"
+        android:layout_below="@+id/prophone"
+        />
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_below="@+id/savaproduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:lottie_url="REPLACE_JSON_URL"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/addproduct"/>
+
+</RelativeLayout>

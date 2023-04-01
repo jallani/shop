@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "622220688448",
+    "project_id": "shop-1fbac",
+    "storage_bucket": "shop-1fbac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622220688448:android:3f9a39230d1962878173a5",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622220688448-bq4e8bqgfimq3aarto4irgm55aebefdg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMG3VSWK2-Z1ewKT9IgiAnDQGtuCeircQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622220688448-bq4e8bqgfimq3aarto4irgm55aebefdg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622220688448:android:a3d19b172d7f035a8173a5",
+        "android_client_info": {
+          "package_name": "com.zamili.shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622220688448-bq4e8bqgfimq3aarto4irgm55aebefdg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMG3VSWK2-Z1ewKT9IgiAnDQGtuCeircQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622220688448-bq4e8bqgfimq3aarto4irgm55aebefdg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

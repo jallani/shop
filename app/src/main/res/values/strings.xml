@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Zamil on line shopping</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="phonenumber">Phonenumber</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="todo">TODO</string>
+    <string name="already_have_account">Already have Account ?</string>
+    <string name="create_new_account">Create New Account ?</string>
+    <string name="add_product">Add Product</string>
+    <string name="rs_4000">RS.4000</string>
+    <string name="sava">sava</string>
+    <string name="product_name">Product Name</string>
+    <string name="call_now">call Now</string>
+    <string name="show_all_product">Show ALL Product</string>
+    <string name="product_details">Product Details</string>
+    <string name="category">Category</string>
+    <string name="Price">Price</string>
+    <string name="details">Details</string>
+    <string name="rs_40000">400000</string>
+    <string name="send_message">Send Message</string>
+    <string name="update">Update</string>
+    <string name="update_product">Update Product</string>
+    <string name="click_to_add_product">Click To Add Product</string>
+    <string-array name="ctg">
+        <item>Beauty Plus fashion</item>
+        <item>Mobile accessories</item>
+        <item>Sports</item>
+        <item>Garmits for Men</item>
+        <item>Garmits for Women</item>
+        <item>Electronic</item>
+        <item>Cosmetic</item>
+        <item>Baby X toze</item>
+        <item>Madicine Tablet</item>
+
+        <item>Beauty</item>
+        <item>Man fashion</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:elevation="2in"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/shaperec1"
+
+        android:padding="5dp"
+        >
+
+        <ImageButton
+            android:id="@+id/detailmessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:src="@drawable/ic_baseline_message_24" />
+        <ImageButton
+            android:id="@+id/backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@null"
+            android:src="@drawable/back"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/product_details"
+            android:layout_marginTop="20px"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/layoutdetailimages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        >
+
+        <ImageView
+            android:id="@+id/imagedetails"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+
+
+            android:src="@drawable/ic_baseline_shopping_cart_checkout_24" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_below="@+id/layoutdetailimages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/detailproname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:textColor="@color/purple_700"
+            android:padding="15dp"
+            />
+        <TextView
+            android:id="@+id/detailproprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rs_40000"
+            android:textColor="#EA0404"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/detailpronumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/category"
+            android:padding="15dp"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:textColor="@color/purple_700"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
